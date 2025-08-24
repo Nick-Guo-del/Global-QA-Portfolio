@@ -1,1 +1,34 @@
 # Global-QA-Portfolio
+#input函数
+from pickletools import string1
+
+familyname=input("Enter your family name:")
+print("So your family name is",familyname)
+
+#数字类型
+numble1=100
+numble2=199.9
+numble3=23.04
+print(type(numble1))
+print(type(numble2))
+print(type(numble3))
+
+#字符串切分(
+name=input("Please enter your name:")
+str1=("Hello " + name)
+print(str1)
+print("字符串为：",str1)
+print("字符串中的第一个字符：",str1[0])
+print("字符串中的倒数第二个字符：",str1[-2])
+print("字符串中的倒数第一个字符：",str1[-1])
+print("字符串中的前五个字符：",str1[0:5])
+print("Your name is:",str1[6: ])
+
+#老师版
+str1=input("打招呼:")
+print("字符串为：",str1)
+print("字符串中的第一个字符：",str1[0])
+print("字符串中的倒数第三个字符：",str1[-3])
+print("字符串中的倒数第一个字符：",str1[-1])
+print("字符串中的前五个字符：",str1[0:5])
+print("Your name is:",str1[6: ])
